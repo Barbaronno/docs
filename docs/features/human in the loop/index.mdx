@@ -1,0 +1,153 @@
+---
+sidebar_position: 3  
+title: "🔐 Human-in-the-Loop"  
+---
+
+# 🔐 What is Human-in-the-Loop?
+
+Human-in-the-Loop is your safety net when using AI Tools. It puts YOU in control by asking for your permission before your AI can use any Tool — like searching the web, generating images, or running code.
+
+Think of it as a "Are you sure?" button that protects you from unexpected AI actions.
+
+---
+
+## 🛡️ Why Do I Need This?
+
+Here's why Human-in-the-Loop keeps you safe:
+
+- 🚫 **Stop Risky Actions**: Prevent your AI from doing something you didn't expect
+- 👀 **See What's Happening**: Know exactly what Tools your AI wants to use and how  
+- 🎯 **Stay In Control**: You decide what happens, not the AI
+- 📊 **Review Everything**: See all the data your AI wants to send to Tools
+
+🛑 **Safety Tip**: Tools can search the internet, modify files, or send data to external services. Always review what your AI is trying to do!
+
+---
+
+## 🎮 How Does It Work?
+
+When your AI wants to use a Tool, here's what happens:
+
+1. 🤖 **AI Requests**: Your AI says "I want to use this Tool"
+2. ⏸️ **Pause**: The AI stops and waits for you
+3. 📋 **You Review**: A popup shows you exactly what the AI wants to do
+4. ✅❌ **You Decide**: Click Allow, Allow Always, or Decline
+5. 🚀 **Action**: The AI either uses the Tool or moves on
+
+It's like having a co-pilot who asks before touching any buttons!
+
+---
+
+## ⚙️ How to Enable Human-in-the-Loop
+
+Only administrators can turn this feature on for everyone:
+
+### 🔧 Admin Setup
+1. Go to **Admin Panel** ➡️ **Settings** ➡️ **General**
+2. Find **"Global Tool Approval"** 
+3. Toggle it **ON** ✅
+4. Click **Save**
+
+That's it! Now all users will see approval prompts when AI tries to use Tools.
+
+💡 **Tip**: This setting affects your entire Open WebUI instance — all users and all chats will require approval.
+
+---
+
+## 🎯 Using the Approval Popup
+
+When your AI wants to use a Tool, you'll see a popup with all the details:
+
+### 📱 What You'll See
+- 🔧 **Tool Name**: Which Tool your AI wants to use (like "Web Search" or "Image Generator")
+- 📄 **Parameters**: Exactly what data the AI wants to send to the Tool
+- ⚠️ **Review Reminder**: A note to check everything carefully
+
+### 🎲 Your Options
+You get three choices:
+
+- 🟢 **Allow Once**: Let the AI use this Tool right now (just this time)
+- 🟡 **Allow Always**: Use this Tool now AND automatically approve all future Tools in this chat
+- 🔴 **Decline**: Stop the AI from using this Tool
+
+### ✨ Smart Features
+- 🔄 **Multiple Tools**: If your AI wants to use several Tools at once, you'll see them all
+- 📱 **One Tab Only**: Only one browser tab shows the popup (prevents confusion)
+- 🔔 **Status Updates**: Get notifications when Tools start running or get blocked
+
+---
+
+## 🤖 Auto-Approval for Trusted Chats
+
+Found a chat you completely trust? You can skip approvals for that specific conversation:
+
+### 🟡 How to Enable Auto-Approval
+1. When you see an approval popup, click **"Allow Always"**
+2. ✅ This approves the current Tools AND enables auto-approval for this chat
+3. 🎉 Future Tools in this chat will run automatically
+
+### 🔄 How to Disable Auto-Approval
+You can turn off auto-approval anytime:
+- 🟢 **Find the Badge**: Look for the green "Auto Tool Approval" badge with LED light in your chat bar
+- ❌ **Click the X**: Click the X on the badge to disable auto-approval for this chat
+- 🔴 **Manual Mode**: You'll now see approval popups again for new Tools
+
+Auto-approval also automatically resets when:
+- 🔄 The server restarts (for security)
+- 🗑️ You delete the chat
+- 💡 You start a new chat (each chat has its own setting)
+
+💡 **Tip**: Use auto-approval only for chats where you completely trust what the AI is doing.
+
+---
+
+## 🚨 What to Watch Out For
+
+### 🔍 Review These Carefully
+- 🌐 **Web Requests**: Tools that search or fetch data from the internet
+- 📁 **File Operations**: Tools that read, write, or modify files  
+- 🖼️ **Image Generation**: Tools that create or process images
+- 💾 **Code Execution**: Tools that run scripts or commands
+
+### 🛑 Red Flags
+Be extra careful if you see:
+- 🔑 **Personal Information**: Your passwords, API keys, or sensitive data in parameters
+- 🌍 **Unknown Websites**: URLs you don't recognize
+- 📂 **System Paths**: File paths that look like system or configuration files
+- 🚀 **Suspicious Commands**: Code that looks like it could harm your system
+
+🚨 **When in Doubt, Decline**: It's always safer to say no and try again with a different approach.
+
+---
+
+## 🔧 Troubleshooting
+
+### 🤔 Approval Popup Not Showing?
+- ✅ Check that an admin enabled "Global Tool Approval" in settings
+- 🔄 Refresh your browser page
+- 🌐 Make sure you're viewing the chat where the AI is trying to use Tools
+
+### 🔄 Auto-Approval Not Working?
+- 📍 Auto-approval only works for the specific chat where you enabled it
+- 🔗 Check that your browser connection is stable
+- 🔄 Try refreshing the page to reset the connection
+
+### 📱 Multiple Browser Tabs Acting Weird?
+- 👁️ Only keep one tab open per chat for the best experience
+- 🔄 Close extra tabs and refresh the remaining one
+- 🎯 The system prevents conflicts, but one tab works best
+
+---
+
+## 🧠 Summary
+
+Human-in-the-Loop gives you complete control over your AI's Tool usage:
+
+- 🛡️ **Safety First**: Review every Tool before it runs
+- 🎯 **You're in Control**: Approve, decline, or auto-approve as you see fit  
+- 📊 **Full Transparency**: See exactly what your AI wants to do
+- ⚙️ **Easy Setup**: Admins just toggle one setting
+
+Now you can use AI Tools with confidence, knowing you're always in the driver's seat! 🚗✨
+
+💡 **Pro Tip**: Start with manual approval for all Tools, then gradually enable auto-approval for chats you trust completely.
