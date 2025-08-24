@@ -9,14 +9,14 @@ const config: Config = {
 	favicon: "images/favicon.png",
 
 	// Set the production url of your site here
-	url: process.env.SITE_URL || "https://openwebui.com",
-	// Set the /<baseUrl>/ pathname under which your site is served
-	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: process.env.BASE_URL || "/",
+    url: "https://barbaronno.github.io",
+    // Set the /<baseUrl>/ pathname under which your site is served
+    // For GitHub pages deployment, it is often '/<projectName>/'
+    baseUrl: "/docs",
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
-	organizationName: "open-webui", // Usually your GitHub org/user name.
+	organizationName: "Barbaronno", // Usually your GitHub org/user name.
 	projectName: "docs", // Usually your repo name.
 
 	onBrokenLinks: "throw",
